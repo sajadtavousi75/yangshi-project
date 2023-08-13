@@ -1,0 +1,8 @@
+body{
+position: relative;
+}
+.main{
+    background-color: var(--primary-color);
+    position: relative;
+    z-index: -1;
+}

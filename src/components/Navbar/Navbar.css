@@ -1,0 +1,37 @@
+.navbar{
+    background-color: var(--light-color);
+border-bottom: 1px solid var(--primary-color);
+}
+
+.navbar-content{
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.navbar-middle__list{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 50px;
+}
+
+.navbar-middle__link,.navbar-login{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: 20px;
+color: var(--primary-color);
+}
+
+.navbar-middle__link:hover{
+    display: block;
+transform: scale(1.2);
+transition: all 1s;
+}
+
+.navbar-login:hover{
+    display: block;
+    transform: scale(1.2);
+    transition: all 1s;
+}
