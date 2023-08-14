@@ -4,6 +4,7 @@ border-bottom: 1px solid var(--primary-color);
 }
 
 .navbar-content{
+    height: 100px;
     width: 100%;
 display: flex;
 align-items: center;
@@ -34,4 +35,48 @@ transition: all 1s;
     display: block;
     transform: scale(1.2);
     transition: all 1s;
+}
+
+.hamburger{
+width: 40px;
+height: 35px;
+cursor: pointer;
+display: none;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+background-color: var(--primary-color);
+border-radius: 5px;
+}
+.bar{
+width: 80%;
+height: 3px;
+background-color: var(--light-color);
+border-radius: 5px;
+}
+
+.open .bar:nth-child(1){
+transform: translateY(0.94rem) rotate(-45deg);
+}
+.open .bar:nth-child(2){
+opacity: 0;
+}
+.open .bar:nth-child(3){
+transform: translateY(-0.94rem) rotate(45deg);
+}
+
+.open .navbar-middle__list{
+    position: absolute;
+display: flex;
+flex-direction: column;
+top: 100%;
+left:10px;
+background-color: var(--primary-color);
+color: var(--light-color);
+width: 200px;
+transition: all 500ms ease-in;
+height: 200px;
+}
+.open .navbar-middle__link{
+color: var(--light-color);
 }

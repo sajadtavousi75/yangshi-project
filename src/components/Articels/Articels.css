@@ -1,0 +1,53 @@
+.articel{
+margin-top: 10rem;
+}
+
+.articel-content{
+    border-top: 1px solid #c75701;
+    border-bottom: 1px solid #c75701;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.articel-content__des{
+    height: 500px;
+    width: 450px;
+    color: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.articel-content__des button{
+text-align: end;
+background-color: transparent;
+outline: none;
+border: none;
+color: var(--light-color);
+font-size: 18px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.articel-content__title{
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.articel-content__text{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.articel-content__img{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.articel-content__img img{
+width: 450px;
+}
