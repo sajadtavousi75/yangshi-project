@@ -9,6 +9,11 @@
     .line-botton{
     margin-left: 11.3rem;
     }
+
+    .artist-content-page{
+        background: rgb(37,0,54);
+    background: linear-gradient(90deg, rgba(37,0,54,1) 26.5%, rgba(248,233,255,1) 26.5%);
+    }
 }
 @media screen and (max-width: 1200px) {
 
@@ -36,6 +41,11 @@
 
         .event-img:hover .text-hover{
         height: 145px;
+        }
+
+        .artist-content-page{
+            background: rgb(37,0,54);
+        background: linear-gradient(90deg, rgba(37,0,54,1) 31.5%, rgba(248,233,255,1) 31.5%);
         }
 }
 @media screen and (max-width: 992px) {
@@ -66,9 +76,18 @@ box-shadow: none;
     .articel-content__des{
     align-items: center;
     }
+
+    .artist-content-page{
+        background:none
+    }
+
+    .artist-box__img{
+    justify-content: center;
+    }
 }
 @media screen and (max-width: 768px) {
     .navbar-middle__list{
+
     position: absolute;
     flex-direction: column;
     top: 100%;
@@ -82,13 +101,30 @@ box-shadow: none;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     box-shadow: 5px 5px 5px var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .navbar-middle__item{
     }
 
     .hamburger{
     display: flex;
     }
+
+    .about-img{
+    display: none;
+    }
+
+    .about-des{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
 }
 @media screen and (max-width: 576px) {
+    
     .event-img img{
         width: 400px;
         }
@@ -96,4 +132,18 @@ box-shadow: none;
         .text-hover{
             width: 400px;
             }
+
+            .gallery-box__img{
+            width: 350px;
+            }
+}
+@media screen and (max-width: 460px) {
+
+    .des-content{
+    font-size: 30px;
+    }
+
+    .line-botton{
+        margin-left:6.5rem;
+        }
 }

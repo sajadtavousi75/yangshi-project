@@ -1,0 +1,35 @@
+.gallery{
+padding: 5rem 0;
+}
+
+
+.gallery-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery-box__img{
+width: 500px;
+height: 700px;
+margin: 2rem 0;
+}
+
+.gallery-box__btn{
+background-color: transparent;
+border: none;
+outline: none;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 18px;
+border-bottom: 1px solid var(--primary-color);
+border-top: 1px solid var(--primary-color);
+border-radius: 5px;
+transition: all 500ms ease-in;
+}
+
+.gallery-box__btn:hover{
+background-color: var(--primary-color);
+color: var(--light-color);
+transition: all 500ms ease-in;
+}

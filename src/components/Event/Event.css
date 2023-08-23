@@ -43,6 +43,7 @@ height: 40px;
 font-size: 22px;
 color: var(--primary-color);
 transition: all ease-in 500ms;
+line-height: 2;
 }
 
 .event-img:hover .text-hover{

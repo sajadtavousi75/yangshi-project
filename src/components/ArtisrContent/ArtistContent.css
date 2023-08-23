@@ -1,0 +1,38 @@
+.artist-content-page{
+    background: rgb(37,0,54);
+background: linear-gradient(90deg, rgba(37,0,54,1) 23%, rgba(248,233,255,1) 23%);
+}
+
+.artist-box{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.artist-box__img{
+display: flex;
+align-items: center;
+}
+
+.artist-box__des{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+border-bottom: 1px solid var(--primary-color);
+border-top: 1px solid var(--primary-color);
+border-radius: 5px;
+}
+
+.artist-box__name{
+font-size: 24px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 700;
+}
+
+.artist-box__text{
+font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 400;
+margin-top: 2rem;
+}
